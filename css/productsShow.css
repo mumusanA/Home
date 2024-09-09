@@ -1,0 +1,36 @@
+.content #right .top{
+	border: 1px solid #f3f3f3;
+}
+.content #right .product-box{
+	margin-bottom: 15px;
+}
+.content #right img{
+	display: flex;
+	justify-content: center;
+	height: 200px;
+	overflow: hidden;
+    margin: 11px 11px 0 11px;
+}
+.content #right p{
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 26px;
+	color: #3f3e45;
+	margin-left: 20px;
+}
+/*page*/
+.page{
+	margin-top: 40px;
+}
+.pagination>li>a{
+	color: #333;
+}
+.pagination .active a{
+	background-color: #40D2B1 !important;
+	border: #53e0c1;
+}
+.pagination .active a:hover{
+	border-color: #53e0c1;
+	background-color: black !important;
+	color: #53e0c1;
+}
