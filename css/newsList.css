@@ -1,0 +1,53 @@
+/* 新闻动态 */
+/* 左边 */
+.content #left li{
+	height: 93.5px;
+	line-height: 93.5px;
+}
+/* 右边 */
+#newsList #right {
+    padding-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+
+#newsList #right .top div {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #eee;
+    padding-top: 20px;
+}
+
+#newsList #right .top h1 {
+     font-size: 15px;
+    line-height: 30px;
+    color: #606369;
+    font-weight: 700;
+}
+
+#newsList #right .top span {
+    font-size: 12px;
+    line-height: 24px;
+    color: #a5a5b1;
+}
+
+#newsList #right .top p {
+    font-size: 14px;
+    line-height: 28px;
+    color: #818388;
+}
+/*page*/
+.page{
+	margin-top: 40px;
+}
+.pagination>li>a{
+	color: #333;
+}
+.pagination .active a{
+	background-color: #40D2B1 !important;
+	border: #53e0c1;
+}
+.pagination .active a:hover{
+	border-color: #53e0c1;
+	background-color: black !important;
+	color: #53e0c1;
+}

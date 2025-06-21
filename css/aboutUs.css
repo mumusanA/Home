@@ -1,0 +1,21 @@
+/* 关于我们 */
+/* 右边 */
+#aboutUs #right {
+    padding-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+
+#aboutUs #right h2 {
+    font-size: 17px;
+    color: #1a1a1a;
+    font-weight: 700;
+    margin-bottom: 17px;
+}
+
+#aboutUs #right p {
+    font-size: 14px;
+    line-height: 30px;
+    color: #818388;
+    margin-bottom: 40px;
+}

@@ -1,0 +1,42 @@
+#onlineMessage #right {
+    padding-top: 10px;
+    margin-bottom: 50px;
+    margin-left: 25px;
+}
+#onlineMessage .content #right h1 {
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 38px;
+    color: #3f3e45;
+    margin-bottom: 20px;
+}
+
+#onlineMessage .content #right span {
+    color: red;
+}
+
+#onlineMessage .content #right input,
+#onlineMessage .content #right textarea {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+
+#onlineMessage .form-control{
+	height: 50px;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+#onlineMessage .cont{
+	height: 120px;
+	resize: none;
+}
+#onlineMessage input[type='submit']{
+	background-color: #53e0c1;
+	color: white;
+	font-weight: 700;
+	transition: 0.3s;
+}
+#onlineMessage input[type='submit']:hover{
+	background: rgb(44,142,120);
+}

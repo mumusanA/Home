@@ -1,0 +1,361 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none !important;
+}
+.header-top{
+	width: 100%;
+	height: 45px;
+	display: flex;
+	align-items: center;
+	background: #252525;
+	position: fixed;
+	z-index: 1000;
+}
+.header-top>.box{
+	margin: 0 auto;
+	width: 1200px;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-top .box #right div>a{
+	text-decoration: none;
+	color: white;
+	margin-left: 20px;
+}
+
+/*nav*/
+.navbar-default{
+	background-color: #fff;
+	border: none;
+	box-shadow: 0 2px 8px 0 rgba(50,50,50,0.2);
+	height: 100px;
+	position: fixed;
+	top: 45px;
+}
+.navbar-default img{
+	margin: 25px 0;
+}
+.navbar-default ul{
+	margin: 17px 0;
+}
+.navbar-default .navbar-brand{
+	height: 100px;
+}
+.navbar-default .navbar-nav>li>a{
+	font-size: 15px;
+	font-weight: bold;
+	line-height: 35px;
+}
+.navbar-default .navbar-toggle{
+    margin: 33px 15px 33px 0;
+}
+.navbar-default .navbar-collapse{
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover{
+	color: #53e0c1;
+}
+.navbar-default .navbar-nav > li > a:hover{
+	color: #53e0c1;
+}
+.navbar-default .navbar-nav > .active > a{
+	color: #53e0c1;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #ddd;
+    background-color: #000;
+    color: #fff;
+}
+
+/* 产品展示与新闻动态标题公用部分 */
+.title div {
+	margin: 40px 0 0 0;
+	height: 90px;
+    font-size: 28px;
+    line-height: 38px;
+    color: #252525;
+    background: url(../img/nav_bg02.png) no-repeat 0px 0px;
+}
+
+.title span {
+    font-size: 22px;
+    line-height: 38px;
+    color: #bbb8b5;
+}
+
+/*footer*/
+#footer{
+	height: 380px;
+	background: #141414;
+	background-size: cover;
+}
+#footer .footer-bj{
+	height: 100%;
+}
+#footer .title{
+	font-weight: 700;
+}
+#footer p{
+	margin-bottom: 20px;
+	line-height: 25px;
+	color: #818388;
+	font-size: 13px;
+}
+#footer a{
+	font-size: 13px;
+	color: #818388;
+}
+#footer .form-control{
+	height: 50px;
+	border: none;
+	border-radius: 0;
+	margin-bottom: 20px;
+}
+#footer .cont{
+	height: 120px;
+	resize: none;
+}
+#footer input[type='submit']{
+	background-color: #40D2B1;
+	color: white;
+	font-weight: 700;
+	transition: 0.3s;
+}
+#footer input[type='submit']:hover{
+	background: rgb(44,142,120);
+}
+#footer .row{
+	margin-top: 50px;
+}
+
+#footer .footer-bj img {
+    margin-bottom: 30px;
+}
+#footer .footer-bj h1{
+	color: #fff;
+    font-size: 19px;
+    background: url(img/nav_bg02.png) no-repeat 0px 0px;
+    line-height: 60px;
+    margin: 0px 0 16px 0;
+}
+
+#footer input {
+    width: 141px;
+    height: 47px;
+    margin-top: 35px;
+    background: #333;
+    border: 0 solid #000;
+}
+
+#footer button {
+    margin: 10px 0 0 0;
+    border: 0 solid #000;
+    width: 80px;
+    height: 43px;
+    background: #3aa27f;
+    color: #fff;
+    margin-bottom: 30px;
+}
+/* 页脚下半部分 */
+#footer #footer-bottom {
+    height: 85px;
+    background: #000;
+    text-align: center;
+    line-height: 75px;
+}
+
+#footer #footer-bottom p {
+    color: #6b6d71;
+    margin: 29px 0;
+}
+
+#BigPic img{
+	margin: 0 auto;
+	width: 100%;
+	height: 350px;
+	position: relative;
+    top: 146px;
+}	
+@media all and (max-width: 1100px) {
+	#BigPic img{height: 300px;}
+}
+@media all and (max-width: 800px) {
+	#BigPic img{height: 250px;}
+}
+@media all and (max-width: 515px) {
+	#BigPic img{height: 160px;}
+}
+
+/*二级标签页与底部距离以及标签的距离*/
+.position{
+	position: relative;
+	top: 125px;
+	margin-bottom: 150px;
+}
+#word {
+	position: relative;
+	top: 150px;
+    height: 50px;
+    border-bottom: 1px solid #f3f3f3;
+    line-height: 50px;
+    color: #818388;
+    margin-bottom: 33px;
+}
+
+/* 关于我们 产品展示 联系我们 在线留言 左边部分 */
+.content .left {
+    /*width: 260px;*/
+}
+
+.content #left li {
+    height: 46px;
+    /*width: 260px;*/
+    background: #f2f2f2;
+    text-align: center;
+    margin-bottom: 2px;
+    line-height: 46px;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+.content #left li:hover{
+	background: gray;
+}
+
+.content #left ul {
+    margin-bottom: 20px;
+}
+
+.content #left li a {
+    font-weight: 700;
+    color: black;
+}
+
+.content #left img {
+    width: 285px;
+    height: 285px;
+    transition: all 2.5s;
+}
+
+.content #left img:hover {
+	-webkit-transform:rotateY(180deg); /* Safari and Chrome */
+}
+
+
+/*other*/
+.izl-rmenu {
+    margin-right: 0;
+    width: 82px;
+    position: fixed;
+    right: 2px;
+    top: 65%;
+    -webkit-box-shadow: #DDD 0px 1px 5px;
+    -moz-box-shadow: #DDD 0px 1px 5px;
+    box-shadow: #DDD 0px 1px 5px;
+    z-index: 999;
+}
+
+.izl-rmenu .consult {
+    background-image: url(../images/consult_icon.gif);
+    background-repeat: no-repeat;
+    background-position: center -77px;
+    display: block;
+    height: 76px;
+    width: 82px;
+}
+
+.izl-rmenu .consult .phone {
+    background-color: #f7f7ff;
+    position: absolute;
+    width: 160px;
+    left: -160px;
+    top: 0px;
+    line-height: 73px;
+    color: #000;
+    font-size: 18px;
+    text-align: center;
+    display: none;
+    box-shadow: #DDD -1px 1px 4px;
+}
+
+.izl-rmenu a.consult:hover .phone {
+    display: inline !important;
+}
+
+.izl-rmenu .cart {
+    background-image: url(../images/consult_icon.gif);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    display: block;
+    height: 16px;
+    width: 16px;
+    font-size: 12px;
+    line-height: 16px;
+    color: #45BDFF;
+    text-align: center;
+    padding-top: 15px;
+    padding-right: 34px;
+    padding-bottom: 47px;
+    padding-left: 48px;
+}
+
+.izl-rmenu a.cart:hover .pic {
+    display: block;
+}
+
+.izl-rmenu .btn_top {
+    background-image: url(../images/float_top.gif);
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: block;
+    height: 39px;
+    width: 82px;
+    -webkit-transition: all 0s ease-in-out;
+    -moz-transition: all 0s ease-in-out;
+    -o-transition: all 0s ease-in-out;
+    transition: all 0s ease-in-out;
+}
+
+.izl-rmenu .btn_top:hover {
+    background-image: url(../images/float_top.gif);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.izl-rmenu .cart .pic {
+    display: none;
+    position: absolute;
+    left: -124px;
+    top: 65px;
+    width: 160px;
+    height: 160px;
+    background: url(../images/weixin.jpg);
+    background-repeat: no-repeat;
+}
+
+#udesk-feedback-tab {
+    position: fixed;
+    right: 2px;
+    top: 65%;
+    margin-top: -76px;
+    -webkit-box-shadow: #DDD 0px -1px 5px;
+    -moz-box-shadow: #DDD 0px -1px 5px;
+    box-shadow: #DDD 0px -1px 5px;
+    cursor: pointer;
+    background-image: url(../images/consult_icon.gif);
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: block;
+    height: 76px;
+    width: 82px;
+    background-color: #FFF !important;
+    z-index: 999;
+}
+
+.udesk-feedback-tab-left, .izl-rmenu {
+    opacity: 0.9;
+}

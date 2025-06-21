@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+	</head>
+	<body>
+		<!--header-->
+		<div id="header">
+			<div class="header-top">
+				<div class="box">
+					<div id="left">
+						<div><span style="color: #fff;">欢迎来到时尚家居网！</span></div>
+					</div>
+					<div id="right">
+						<div style="float: right;"><a href="#"><span class="glyphicon glyphicon-envelope" style="margin: 0 2px;"></span>8888888lll@gmail.com</a></div>
+						<div style="float: right;"><a href="#"><span class="glyphicon glyphicon-earphone" style="margin: 0 2px;"></span>800-80-800xxx</a></div>
+					</div>
+				</div>
+			</div>
+			<!--导航-->
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container" style="padding-right: 0;padding-left: 15px;">
+					<!--小屏幕-->
+					<div class="navbar-header">
+						<a href="index.html"><img src="img/logo.png"/></a>
+						<button class="navbar-toggle" data-target='.navbar-collapse' data-toggle='collapse'>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<!--大屏幕-->
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="#">首页</a></li> 
+							<li><a href="aboutUs.html">关于我们</a></li>
+							<li><a href="productsShow.html">产品展示</a></li>
+							<li><a href="newsList.html">新闻动态</a></li>
+							<li><a href="onlineMessage.html">在线留言</a></li>
+							<li><a href="contactUs.html">联系我们</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!--轮播图-->
+		<div class="banner" id="banner">
+			<div class="carousel slide" data-ride='carousel' id="mycarousel"> <!--id会和图中的图片，按钮等一一对应，实现图的切换-->
+				<!--轮播图内部的内容-->
+				<div class="carousel-inner">
+					<!--轮播图图片  第一张图片默认是激活的-->
+					<div class="item active">
+						<img src="img/banner1.jpg" />
+						<div class="carousel-caption">
+							<h1>精致生活 简单爱</h1>
+				            <p>用细节缔造美好家居， 触碰你心中的柔软</p>
+				            <p>给您无微不至的关怀</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/banner2.jpg" />
+						<div class="carousel-caption">
+							<h1>精致生活 简单爱</h1>
+				            <p>用细节缔造美好家居， 触碰你心中的柔软</p>
+				            <p>给您无微不至的关怀</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/banner4.jpg"/>
+						<div class="carousel-caption">
+							<h1>精致生活 简单爱</h1>
+				            <p>用细节缔造美好家居， 触碰你心中的柔软</p>
+				            <p>给您无微不至的关怀</p>
+						</div>
+					</div>
+					
+					<!--左右控制-->
+					<a href="#mycarousel" role='button' class="left carousel-control" data-slide='prev'>
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a href="#mycarousel" role='button' class="right carousel-control" data-slide='next'>
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+					<!--指示灯-->
+					<ol class="carousel-indicators">
+						<li data-target='#mycarousel' data-slide-to='0' class="active"></li>
+						<li data-target='#mycarousel' data-slide-to='1'></li>
+						<li data-target='#mycarousel' data-slide-to='2'></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		
+		<div style="margin-bottom: 200px;"></div>
+		
+		
+		<!--footer-->
+		<div id="footer">
+			<!--footer-top-->
+			<div class="footer-bj" id="footer-top">
+				<div class="container" style="padding-left: 24px;">
+					<div class="row">
+						<div class="col-md-4 col-xs-4 wow fadeInLeft">
+							<img src="img/logo2.jpg">
+							<address>
+								<p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;地址：中国上海市xxx区xxx路12号moumou大厦5层5xx室</p>
+								<p><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;电话：400-000-xxxx / (021)-1234578xxx</p>
+								<p><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;邮箱：12385963xxxx@gmail.com</p>
+							</address>
+						</div>
+						<div class="col-md-4 col-xs-4 wow fadeInRight">
+							<div class="col-md-12" style="margin-bottom: 10px;">
+								<h1>快速链接</h1>
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<p><a href="index.html">网站首页</a></p>
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<p><a href="productsShow.html">产品展示</a></p>
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<p><a href="onlineMessage.html">在线留言</a></p>
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<p><a href="aboutUs.html">关于我们</a></p>
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<p><a href="newsList.html">新闻动态</a></p>
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<p><a href="contactUs.html">联系我们</a></p>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-4 wow fadeInRight">
+							<div class="col-md-12" style="margin-bottom: -20px;">
+								<h1>站内搜索</h1>
+							</div>
+							<div class="col-md-12 col-xs-12">
+								<form action="#">
+		                        	<input type="text" placeholder=" 请输入关键字">
+		                        	<button type="submit">搜索</button>
+			                    </form>
+							</div>
+							<div class="col-md-8 col-xs-12">
+								<p><a href="#">关注我们<img src="img/fenxiang.png" alt="" style="margin-bottom: 5px;"></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--footer-bottom-->
+			<div id="footer-bottom">
+	            <div class="container">
+	                <p>Copyright © 2009-2011,www.XXXXXX.com,All rights reserved 沪ICP备XXXXXXX号未经同意,不得转载</p>
+	            </div>
+	        </div>
+		</div>
+		
+	</body>
+</html>
+

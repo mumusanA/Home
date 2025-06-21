@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+		<title>首页</title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/common.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+		<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+		<link rel="stylesheet" href="css/Font-Awesome-4.7.0/css/font-awesome.min.css" />
+		<script type="text/javascript" src="js/jquery.min.js" ></script>
+		<script type="text/javascript" src="js/bootstrap.js" ></script>
+		<script type="text/javascript" src="js/holder.js" ></script>
+		<script type="text/javascript" src="js/npm.js" ></script>
+	</head>
+	<body data-spy = 'scroll' data-target = '#mynav'>
+		<!--header-->
+		<div id="header">
+			<div class="header-top">
+				<div class="box">
+					<div id="left">
+						<div><span style="color: #fff;">欢迎来到时尚家居网！</span></div>
+					</div>
+					<div id="right">
+						<div style="float: right;"><a href="#"><span class="glyphicon glyphicon-envelope" style="margin: 0 2px;"></span>8888888lll@gmail.com</a></div>
+						<div style="float: right;"><a href="#"><span class="glyphicon glyphicon-earphone" style="margin: 0 2px;"></span>800-80-800xxx</a></div>
+					</div>
+				</div>
+			</div>
+			<!--导航-->
+			<nav class="navbar navbar-default navbar-fixed-top">
+				<div class="container" style="padding-right: 0;padding-left: 15px;">
+					<!--小屏幕-->
+					<div class="navbar-header">
+						<a href="index.html"><img src="img/logo.png"/></a>
+						<button class="navbar-toggle" data-target='.navbar-collapse' data-toggle='collapse'>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<!--大屏幕-->
+					<div class="navbar-collapse collapse">
+						<ul class="nav navbar-nav navbar-right">
+							<li class="active"><a href="#">首页</a></li> 
+							<li><a href="aboutUs.html">关于我们</a></li>
+							<li><a href="productsShow.html">产品展示</a></li>
+							<li><a href="newsList.html">新闻动态</a></li>
+							<li><a href="onlineMessage.html">在线留言</a></li>
+							<li><a href="contactUs.html">联系我们</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+		<!--轮播图-->
+		<div class="banner" id="banner">
+			<div class="carousel slide" data-ride='carousel' id="mycarousel"> <!--id会和图中的图片，按钮等一一对应，实现图的切换-->
+				<!--轮播图内部的内容-->
+				<div class="carousel-inner">
+					<!--轮播图图片  第一张图片默认是激活的-->
+					<div class="item active">
+						<img src="img/banner1.jpg" />
+						<div class="carousel-caption">
+							<h1>精致生活 简单爱</h1>
+				            <p>用细节缔造美好家居， 触碰你心中的柔软</p>
+				            <p>给您无微不至的关怀</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/banner2.jpg" />
+						<div class="carousel-caption">
+							<h1>精致生活 简单爱</h1>
+				            <p>用细节缔造美好家居， 触碰你心中的柔软</p>
+				            <p>给您无微不至的关怀</p>
+						</div>
+					</div>
+					<div class="item">
+						<img src="img/banner4.jpg"/>
+						<div class="carousel-caption">
+							<h1>精致生活 简单爱</h1>
+				            <p>用细节缔造美好家居， 触碰你心中的柔软</p>
+				            <p>给您无微不至的关怀</p>
+						</div>
+					</div>
+					
+					<!--左右控制-->
+					<a href="#mycarousel" role='button' class="left carousel-control" data-slide='prev'>
+						<span class="glyphicon glyphicon-chevron-left"></span>
+					</a>
+					<a href="#mycarousel" role='button' class="right carousel-control" data-slide='next'>
+						<span class="glyphicon glyphicon-chevron-right"></span>
+					</a>
+					<!--指示灯-->
+					<ol class="carousel-indicators">
+						<li data-target='#mycarousel' data-slide-to='0' class="active"></li>
+						<li data-target='#mycarousel' data-slide-to='1'></li>
+						<li data-target='#mycarousel' data-slide-to='2'></li>
+					</ol>
+				</div>
+			</div>
+		</div>
+		<!--feather-->
+		<div class="container" id="feather">
+			<div class="row wow fadeInUp" data-wow-duration='1s'>
+				<div class="col-md-4">
+					<div class="feather">
+						<div class="feather-img">
+							<img src="img/01.jpg" />
+						</div>
+						<div class="feather-content">	
+							<h1>品质高 经久耐用</h1>
+				            <p>当前家纺市场上的优秀代表，从织造、染色、印花
+						                及整理包装的整个流程，我们都做的十分仔细，而且
+						                在环保性上，也有很好的表现
+				            </p>
+				            <br>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="feather">
+						<div class="feather-img">
+							<img src="img/02.jpg" />
+						</div>
+						<div class="feather-content">
+							<h1>品质高 经久耐用</h1>
+				            <p>公司全体员团结奋进、开拓进取，为创建特色鲜
+						                明、质量一流的名牌产品而不懈努力。公司凭借高素质
+						                的人才队伍，先进的工艺和一流、完善的企业管理
+				            </p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="feather">
+						<div class="feather-img">
+							<img src="img/01.jpg" />
+						</div>
+						<div class="feather-content">
+							<h1>先进的工艺技术</h1>
+				            <p>家纺依靠科技进步、倡导绿色消费，让消费者充分
+						                体会到品牌文化所带来的无穷魅力，专业致力于功能性
+						                家纺，产品有真丝系列、婚庆系列、时尚系列
+				            </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 产品展示 -->
+		<div class="container">
+    		<div id="ourproducts" style="margin-bottom: 30px;">
+				<div class="title wow fadeInDown" data-wow-duration='1s'>
+					<div>产品展示
+						<span>OUR PRODUCTS</span>				
+					</div>
+				</div>
+				<div class="product">
+					<div class="smallbox1 wow fadeInLeft" data-wow-duration='1s'>
+						<div>
+							<a href="#">
+								<div>
+									<img src="img/pic01.jpg" class="temp"/>
+								</div>
+								<!--蒙版内容-->
+								<div class="statics-content1">
+									<img src="img/pic01-01.jpg" />
+								</div>
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								<div>
+									<img src="img/pic02.jpg" class="temp"/>
+								</div>
+								<!--蒙版内容-->
+								<div class="statics-content2">
+									<img src="img/pic02-01.jpg" />
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="smallbox1 wow fadeInLeft" data-wow-duration='1s'>
+						<div>
+							<a href="#">
+								<div>
+									<img src="img/pic03.jpg" class="temp"/>
+								</div>
+								<!--蒙版内容-->
+								<div class="statics-content1">
+									<img src="img/pic03-01.jpg" />
+								</div>
+							</a>
+						</div>
+						<div>
+							<a href="#">
+								<div>
+									<img src="img/pic04.jpg" class="temp"/>
+								</div>
+								<!--蒙版内容-->
+								<div class="statics-content2">
+									<img src="img/pic04-01.jpg" />
+								</div>
+							</a>
+						</div>
+					</div>
+					<div class="smallbox2 wow fadeInRight" data-wow-duration='1s'>
+						<div>
+							<a href="#">
+								<div>
+									<img src="img/pic05.jpg" class="temp"/>
+								</div>
+								<!--蒙版内容-->
+								<div class="statics-content3">
+									<img src="img/pic05-01.jpg"/>
+								</div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- 关于我们 -->
+	    <div class="jumbotron" id="aboutUs">
+			<div class="aboutUs-content wow fadeInDown"  data-wow-duration='2s'>
+				<h1>关于我们</h1>
+	            <p>**家纺有限公司现有员工1000余人，资产总额9000万元。下设：纺纱分厂、毛巾分厂、绣花分厂、家纺分厂和进出口公司。先后在韩国、欧洲、日本、美国、澳大利亚、新加坡、中东、非洲等十几个国家和地区建立了稳定的销售网络和分公司。被省、市政府评为“先进企业”“功勋企业”“外贸出口先进单位”，同时被授予“AAA”级信用企业。**公司凭借高素质的人才队伍，先进的工艺和一流、完善的企业管理，赢得了国内外客户的良好赞誉，使得企业很快发展成为集纺、织、印、染、绣花为一体的家纺集团。公司先后荣获了“中国驰名商标”、“**名牌”、“**省著名商标”等荣誉称号。公司通过了ISO9001：2000......
+	            </p>
+	            <a href="#">READ MORE</a>
+			</div>
+		</div>
+		<!-- 新闻动态 -->
+	    <div class="container" id="news">
+	        <div class="title wow fadeInDown" data-wow-duration='1s'>
+				<div>新闻动态
+					<span>NEWS CENTER</span>				
+				</div>
+			</div>
+			<div class="row wow fadeInUp" data-wow-duration='1s'>
+				<div class="col-md-4 col-xs-12">
+					<div class="news">
+						<div class="main">
+							<a href="#"><img src="img/pic06.jpg"/></a>
+							<div class="news-content">
+								<ul>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 家纺行业的四大走向 <span class="time">2014-10-20</span></a>
+				                    </li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 家纺行业：从价值链的薄弱环节找到 <span
+				                                class="time">2014-10-20</span></a></li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 2009年净利润同比增长34.4 <span
+				                                class="time">2014-10-20</span></a></li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 家电涨价与降价背后的营销逻辑 <span
+				                                class="time">2014-10-20</span></a></li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 高科技家电未来都很低碳 <span
+				                                class="time">2014-10-20</span></a></li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> XX网加盟“绿书签”行动 <span
+				                                class="time">2014-10-20</span></a></li>
+				                </ul>
+			                </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<div class="news">
+						<div class="main">
+							<a href="#"><img src="img/pic07.jpg"/></a>
+							<div class="news-content">
+								<ul>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 家纺行业的四大走向 <span class="time">2014-10-20</span></a>
+				                    </li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 家纺行业：从价值链的薄弱环节找到 <span
+				                                class="time">2014-10-20</span></a></li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 2009年净利润同比增长34.4 <span
+				                                class="time">2014-10-20</span></a></li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 家电涨价与降价背后的营销逻辑 <span
+				                                class="time">2014-10-20</span></a></li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 高科技家电未来都很低碳 <span
+				                                class="time">2014-10-20</span></a></li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> XX网加盟“绿书签”行动 <span
+				                                class="time">2014-10-20</span></a></li>
+				                </ul>
+			                </div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-xs-12">
+					<div class="news">
+						<div class="main">
+							<a href="#"><img src="img/pic08.jpg"/></a>
+							<div class="news-content">
+								<ul>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 家纺行业的四大走向 <span class="time">2014-10-20</span></a>
+				                    </li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 家纺行业：从价值链的薄弱环节找到 <span
+				                                class="time">2014-10-20</span></a></li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 2009年净利润同比增长34.4 <span
+				                                class="time">2014-10-20</span></a></li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 家电涨价与降价背后的营销逻辑 <span
+				                                class="time">2014-10-20</span></a></li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> 高科技家电未来都很低碳 <span
+				                                class="time">2014-10-20</span></a></li>
+				                    <li><a href="#"><span class="chat">[行业资讯]</span> XX网加盟“绿书签”行动 <span
+				                                class="time">2014-10-20</span></a></li>
+				                </ul>
+			                </div>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+	    </div>
+		<!--footer-->
+		<div id="footer">
+			<!--footer-top-->
+			<div class="footer-bj" id="footer-top">
+				<div class="container" style="padding-left: 24px;">
+					<div class="row">
+						<div class="col-md-4 col-xs-4 wow fadeInLeft">
+							<img src="img/logo2.jpg">
+							<address>
+								<p><span class="glyphicon glyphicon-map-marker"></span>&nbsp;&nbsp;地址：中国上海市xxx区xxx路12号moumou大厦5层5xx室</p>
+								<p><span class="glyphicon glyphicon-phone-alt"></span>&nbsp;&nbsp;电话：400-000-xxxx / (021)-1234578xxx</p>
+								<p><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;邮箱：12385963xxxx@gmail.com</p>
+							</address>
+						</div>
+						<div class="col-md-4 col-xs-4 wow fadeInRight">
+							<div class="col-md-12" style="margin-bottom: 10px;">
+								<h1>快速链接</h1>
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<p><a href="index.html">网站首页</a></p>
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<p><a href="productsShow.html">产品展示</a></p>
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<p><a href="onlineMessage.html">在线留言</a></p>
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<p><a href="aboutUs.html">关于我们</a></p>
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<p><a href="newsList.html">新闻动态</a></p>
+							</div>
+							<div class="col-md-6 col-xs-6">
+								<p><a href="contactUs.html">联系我们</a></p>
+							</div>
+						</div>
+						<div class="col-md-4 col-xs-4 wow fadeInRight">
+							<div class="col-md-12" style="margin-bottom: -20px;">
+								<h1>站内搜索</h1>
+							</div>
+							<div class="col-md-12 col-xs-12">
+								<form action="#">
+		                        	<input type="text" placeholder=" 请输入关键字">
+		                        	<button type="submit">搜索</button>
+			                    </form>
+							</div>
+							<div class="col-md-8 col-xs-12">
+								<p><a href="#">关注我们<img src="img/fenxiang.png" alt="" style="margin-bottom: 5px;"></a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--footer-bottom-->
+			<div id="footer-bottom">
+	            <div class="container">
+	                <p>Copyright © 2009-2011,www.XXXXXX.com,All rights reserved 沪ICP备XXXXXXX号未经同意,不得转载</p>
+	            </div>
+	        </div>
+		</div>
+		
+		<!--回到顶部-->
+		<!--在线客服-->
+		<!--qq聊天代码部分begin-->
+		<div class="izl-rmenu">
+		    <a class="consult" target="_blank"><div class="phone" style="display:none;">0592-1234567</div></a>
+		    <a class="cart"><div class="pic"></div></a>
+		    <a href="javascript:void(0)" class="btn_top" style="display: block;"></a>
+		</div> 
+		<a target="_blank"  href="http://wpa.qq.com/msgrd?v=3&uin=123456&site=qq&menu=yes" id="udesk-feedback-tab" class="udesk-feedback-tab-left" style="display: block; background-color: black;"></a>
+		<!--qq聊天代码部分end-->
+		
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="js/jquery-1.11.1.js"></script>
+		<script src="js/jquery-1.8.3.min.js"></script>
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+		<!--自己写的js-->
+		<script src="js/main.min.js" type="text/javascript" charset="utf-8"></script>
+		
+		
+		
+		
+		<!--<script src="js/jquery-1.12.4.js" type="text/javascript" charset="utf-8"></script>-->
+		<script src="js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery.singlePageNav.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/wow.min.js" type="text/javascript" charset="utf-8"></script>
+		<script type="text/javascript">
+			$(function(){
+				//初始化动画效果
+				new WOW().init();
+			})
+		</script>
+	</body>
+</html>
+
